@@ -76,7 +76,9 @@ jobs:
       run: |
         cd openwrt/package
         git clone https://github.com/rufengsuixing/luci-app-adguardhome
-      
+        git clone https://github.com/fw876/helloworld
+        mv helloworld/luci-app-ssr-plus/ .
+        rm -rf helloworld/
         
         git clone  -b master https://github.com/vernesong/OpenClash
         mv OpenClash/luci-app-openclash/ .
