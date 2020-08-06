@@ -21,3 +21,6 @@ echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Server=y' >> .config
 echo 'CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Socks=y' >> .config
 echo 'CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y'  >> .config
+
+git clone https://github.com/frainzy1477/luci-app-clash package/lean/luci-app-clash
+echo 'CONFIG_PACKAGE_luci-app-clash=y' >> .config
