@@ -24,3 +24,7 @@ echo 'CONFIG_PACKAGE_luci-i18n-vssr-zh-cn=y'  >> .config
 
 git clone https://github.com/frainzy1477/luci-app-clash package/lean/luci-app-clash
 echo 'CONFIG_PACKAGE_luci-app-clash=y' >> .config
+
+
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-theme-argon_new
+echo 'CONFIG_PACKAGE_luci-theme-argon_new=y'  >> .config
