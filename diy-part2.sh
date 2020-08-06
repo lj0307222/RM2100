@@ -26,5 +26,5 @@ git clone https://github.com/frainzy1477/luci-app-clash package/lean/luci-app-cl
 echo 'CONFIG_PACKAGE_luci-app-clash=y' >> .config
 
 
-git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-theme-argon_new
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-theme-argon_new package/lean/luici-theme-argon_new
 echo 'CONFIG_PACKAGE_luci-theme-argon_new=y'  >> .config
